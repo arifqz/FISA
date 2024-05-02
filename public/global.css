@@ -1,0 +1,129 @@
+html, body {
+    background-color: #000000; /* Replace with your desired color */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px; /* This sets the base font size for rem calculations */
+    overflow:auto;
+  }
+
+spline-viewer {
+    width: 0px; /* Adjust this value to your desired width */
+  }
+
+main {
+    position:absolute;
+    top:0px;
+}
+
+.masthead {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    top: 20%;
+    width:40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+    height:auto;
+    pointer-events:none;
+}
+
+
+h3 {
+    font-size: 2vw; /* Adjust as needed */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-block-start: 0em;
+    margin-block-end:0em;
+    position: relative;
+    border-bottom: 1px solid white; /* Add a border to the bottom of the h3 element */
+}
+
+h4 {
+    font-size: 3vw; /* Adjust as needed */
+    font-family: "portada", serif;
+font-weight: 800;
+font-style: italic;
+}
+.blinking-dot {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 25%;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+main article {
+    width: 50%; /* Set the width of the section to 50% */
+    margin: 0 auto; /* Center the section horizontally */
+    font-size: 1rem; /* 16px */
+    color: #fff;
+}
+article section p {
+    font-size: 1.75vw;
+    font-family: "portada", serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: auto;
+    line-height: auto;
+    orphans: 20;
+    widows: 20;
+    text-align: justify;
+    margin-block-start:.5em;
+
+}
+
+article {
+    margin-top:-10%;
+}
+
+.author-credits p {
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 10px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 300;
+font-style: normal;
+  }
+
+
+  h5 {
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 10px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 300;
+font-style: normal;
+  }
+
+.reference-style {
+    font-size: 1vw;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+li a {
+    color: grey; /* Change to your preferred color */
+  }
+
+  ol {
+    padding-left:1vw;
+  }
